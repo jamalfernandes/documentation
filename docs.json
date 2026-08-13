@@ -48,6 +48,17 @@
         ]
       },
       {
+        "group": "The website",
+        "icon": "browser",
+        "pages": [
+          "website/where-it-stands",
+          "website/what-to-fix",
+          "website/rewrites",
+          "website/lead-page",
+          "website/structure"
+        ]
+      },
+      {
         "group": "Decisions",
         "icon": "circle-check",
         "pages": [
