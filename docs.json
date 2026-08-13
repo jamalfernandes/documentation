@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Human Ecology — Brand Asset Pack",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -18,20 +18,54 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "groups": [
+      {
+        "group": "Start here",
+        "icon": "hand",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "The foundation",
+        "icon": "layer-group",
+        "pages": [
+          "positioning",
+          "messaging",
+          "audience"
+        ]
+      },
+      {
+        "group": "Using it",
+        "icon": "pen-nib",
+        "pages": [
+          "objections",
+          "email",
+          "social",
+          "ads",
+          "competitive",
+          "rhythm"
+        ]
+      },
+      {
+        "group": "The website",
+        "icon": "browser",
+        "pages": [
+          "website/where-it-stands",
+          "website/what-to-fix",
+          "website/rewrites",
+          "website/lead-page",
+          "website/structure"
+        ]
+      },
+      {
+        "group": "Decisions",
+        "icon": "circle-check",
+        "pages": [
+          "decisions"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -64,9 +98,17 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "description": "Working brand reference for Armelle Six. Prepared by Boost33. Private — not for distribution.",
+  "search": {
+    "prompt": "Search the pack"
+  },
+  "seo": {
+    "metatags": {
+      "robots": "noindex, nofollow, noarchive, nosnippet, noimageindex",
+      "googlebot": "noindex, nofollow"
+    },
+    "indexing": "navigable"
   }
 }
