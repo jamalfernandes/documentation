@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Human Ecology · Brand Asset Pack",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#8A3A3A",
+    "light": "#C97B63",
+    "dark": "#1C1512"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/boost33-mono.png",
   "navigation": {
     "pages": [
       {
@@ -18,55 +18,72 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "groups": [
+      {
+        "group": "The brand",
+        "pages": [
+          "index",
+          "positioning",
+          "messaging",
+          "audiences",
+          "objections"
+        ]
+      },
+      {
+        "group": "Ready to use",
+        "icon": "clipboard-copy",
+        "pages": [
+          "rhythm",
+          "posts",
+          "emails",
+          "website"
+        ]
+      },
+      {
+        "group": "Reference",
+        "icon": "library",
+        "pages": [
+          "ads",
+          "competitive"
+        ]
+      },
+      {
+        "group": "Internal · Boost33",
+        "icon": "triangle-alert",
+        "pages": [
+          "open-items"
+        ]
+      }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/boost33-horizontal.png",
+    "dark": "/logo/boost33-horizontal-white.png"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
+    "links": []
   },
   "contextual": {
     "options": [
       "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "view"
     ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "socials": {}
+  },
+  "description": "The working brand and content reference for Human Ecology. Positioning, messaging, ready-to-use copy, and the weekly rhythm behind it.",
+  "appearance": {
+    "default": "light"
+  },
+  "seo": {
+    "indexing": "navigable"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "metadata": {
+    "timestamp": false,
+    "robots": "noindex, nofollow"
   }
 }
