@@ -43,6 +43,7 @@
         "group": "Reference",
         "icon": "library",
         "pages": [
+          "proof",
           "ads",
           "competitive"
         ]
