@@ -70,8 +70,7 @@
     ]
   },
   "footer": {
-    "socials": {
-    }
+    "socials": {}
   },
   "description": "The working brand and content reference for Human Ecology. Positioning, messaging, ready-to-use copy, and the weekly rhythm behind it.",
   "appearance": {
@@ -84,6 +83,7 @@
     "library": "lucide"
   },
   "metadata": {
-    "timestamp": false
+    "timestamp": false,
+    "robots": "noindex, nofollow"
   }
 }
