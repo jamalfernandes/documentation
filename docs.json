@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Xavier Herman · Brand Kit",
+  "name": "Human Ecology · Brand Asset Pack",
   "colors": {
-    "primary": "#f95916",
-    "light": "#ff7134",
-    "dark": "#b02c00"
+    "primary": "#8A3A3A",
+    "light": "#C97B63",
+    "dark": "#1C1512"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/boost33-mono.png",
   "navigation": {
     "pages": [
       {
@@ -72,7 +72,7 @@
   "footer": {
     "socials": {}
   },
-  "description": "The working brand and content reference for Xavier Herman. Positioning, messaging, ready-to-use copy, and the proof behind every claim.",
+  "description": "The working brand and content reference for Human Ecology. Positioning, messaging, ready-to-use copy, and the weekly rhythm behind it.",
   "appearance": {
     "default": "light"
   },
@@ -85,5 +85,9 @@
   "metadata": {
     "timestamp": false,
     "robots": "noindex, nofollow"
+  },
+  "logo": {
+    "light": "/logo/boost33-horizontal.png",
+    "dark": "/logo/boost33-horizontal-white.png"
   }
 }
