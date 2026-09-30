@@ -4,8 +4,8 @@
   "name": "Xavier Herman · Brand Kit",
   "colors": {
     "primary": "#f95916",
-    "light": "#fb7f4d",
-    "dark": "#df4609"
+    "light": "#ff7134",
+    "dark": "#b02c00"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -47,7 +47,8 @@
         "pages": [
           "proof",
           "ads",
-          "competitive"
+          "competitive",
+          "spirituality"
         ]
       },
       {
